@@ -1,0 +1,11 @@
+C:\Users\Danh.dc\source\repos\EF.SqlServer\EF.SqlServer\bin\Debug\netcoreapp2.0\EF.SqlServer.deps.json
+C:\Users\Danh.dc\source\repos\EF.SqlServer\EF.SqlServer\bin\Debug\netcoreapp2.0\EF.SqlServer.runtimeconfig.json
+C:\Users\Danh.dc\source\repos\EF.SqlServer\EF.SqlServer\bin\Debug\netcoreapp2.0\EF.SqlServer.runtimeconfig.dev.json
+C:\Users\Danh.dc\source\repos\EF.SqlServer\EF.SqlServer\bin\Debug\netcoreapp2.0\EF.SqlServer.dll
+C:\Users\Danh.dc\source\repos\EF.SqlServer\EF.SqlServer\bin\Debug\netcoreapp2.0\EF.SqlServer.pdb
+C:\Users\Danh.dc\source\repos\EF.SqlServer\EF.SqlServer\obj\Debug\netcoreapp2.0\EF.SqlServer.csprojAssemblyReference.cache
+C:\Users\Danh.dc\source\repos\EF.SqlServer\EF.SqlServer\obj\Debug\netcoreapp2.0\EF.SqlServer.csproj.CoreCompileInputs.cache
+C:\Users\Danh.dc\source\repos\EF.SqlServer\EF.SqlServer\obj\Debug\netcoreapp2.0\EF.SqlServer.AssemblyInfoInputs.cache
+C:\Users\Danh.dc\source\repos\EF.SqlServer\EF.SqlServer\obj\Debug\netcoreapp2.0\EF.SqlServer.AssemblyInfo.cs
+C:\Users\Danh.dc\source\repos\EF.SqlServer\EF.SqlServer\obj\Debug\netcoreapp2.0\EF.SqlServer.dll
+C:\Users\Danh.dc\source\repos\EF.SqlServer\EF.SqlServer\obj\Debug\netcoreapp2.0\EF.SqlServer.pdb

@@ -24,3 +24,28 @@ D:\2. Net Core\MVCCore\Core.AppState\Core.AppState\obj\Debug\netcoreapp2.2\Core.
 D:\2. Net Core\MVCCore\Core.AppState\Core.AppState\obj\Debug\netcoreapp2.2\Razor\Views\Home\About.g.cshtml.cs
 D:\2. Net Core\MVCCore\Core.AppState\Core.AppState\obj\Debug\netcoreapp2.2\Razor\Views\Login\Login.g.cshtml.cs
 D:\2. Net Core\MVCCore\Core.AppState\Core.AppState\obj\Debug\netcoreapp2.2\Razor\Views\Login\Buy.g.cshtml.cs
+F:\Code\2. .Net Core\1. git Learning .Net Core\MVCCore\Core.AppState\Core.AppState\bin\Debug\netcoreapp2.2\Core.AppState.deps.json
+F:\Code\2. .Net Core\1. git Learning .Net Core\MVCCore\Core.AppState\Core.AppState\bin\Debug\netcoreapp2.2\Core.AppState.runtimeconfig.json
+F:\Code\2. .Net Core\1. git Learning .Net Core\MVCCore\Core.AppState\Core.AppState\bin\Debug\netcoreapp2.2\Core.AppState.runtimeconfig.dev.json
+F:\Code\2. .Net Core\1. git Learning .Net Core\MVCCore\Core.AppState\Core.AppState\bin\Debug\netcoreapp2.2\Core.AppState.dll
+F:\Code\2. .Net Core\1. git Learning .Net Core\MVCCore\Core.AppState\Core.AppState\bin\Debug\netcoreapp2.2\Core.AppState.pdb
+F:\Code\2. .Net Core\1. git Learning .Net Core\MVCCore\Core.AppState\Core.AppState\bin\Debug\netcoreapp2.2\Core.AppState.Views.dll
+F:\Code\2. .Net Core\1. git Learning .Net Core\MVCCore\Core.AppState\Core.AppState\bin\Debug\netcoreapp2.2\Core.AppState.Views.pdb
+F:\Code\2. .Net Core\1. git Learning .Net Core\MVCCore\Core.AppState\Core.AppState\obj\Debug\netcoreapp2.2\Core.AppState.csproj.CoreCompileInputs.cache
+F:\Code\2. .Net Core\1. git Learning .Net Core\MVCCore\Core.AppState\Core.AppState\obj\Debug\netcoreapp2.2\Core.AppState.RazorAssemblyInfo.cache
+F:\Code\2. .Net Core\1. git Learning .Net Core\MVCCore\Core.AppState\Core.AppState\obj\Debug\netcoreapp2.2\Core.AppState.RazorAssemblyInfo.cs
+F:\Code\2. .Net Core\1. git Learning .Net Core\MVCCore\Core.AppState\Core.AppState\obj\Debug\netcoreapp2.2\Core.AppState.AssemblyInfoInputs.cache
+F:\Code\2. .Net Core\1. git Learning .Net Core\MVCCore\Core.AppState\Core.AppState\obj\Debug\netcoreapp2.2\Core.AppState.AssemblyInfo.cs
+F:\Code\2. .Net Core\1. git Learning .Net Core\MVCCore\Core.AppState\Core.AppState\obj\Debug\netcoreapp2.2\Core.AppState.TagHelpers.input.cache
+F:\Code\2. .Net Core\1. git Learning .Net Core\MVCCore\Core.AppState\Core.AppState\obj\Debug\netcoreapp2.2\Core.AppState.TagHelpers.output.cache
+F:\Code\2. .Net Core\1. git Learning .Net Core\MVCCore\Core.AppState\Core.AppState\obj\Debug\netcoreapp2.2\Core.AppState.RazorCoreGenerate.cache
+F:\Code\2. .Net Core\1. git Learning .Net Core\MVCCore\Core.AppState\Core.AppState\obj\Debug\netcoreapp2.2\Razor\Views\Home\About.g.cshtml.cs
+F:\Code\2. .Net Core\1. git Learning .Net Core\MVCCore\Core.AppState\Core.AppState\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+F:\Code\2. .Net Core\1. git Learning .Net Core\MVCCore\Core.AppState\Core.AppState\obj\Debug\netcoreapp2.2\Razor\Views\Login\Buy.g.cshtml.cs
+F:\Code\2. .Net Core\1. git Learning .Net Core\MVCCore\Core.AppState\Core.AppState\obj\Debug\netcoreapp2.2\Razor\Views\Login\Login.g.cshtml.cs
+F:\Code\2. .Net Core\1. git Learning .Net Core\MVCCore\Core.AppState\Core.AppState\obj\Debug\netcoreapp2.2\Core.AppState.RazorTargetAssemblyInfo.cache
+F:\Code\2. .Net Core\1. git Learning .Net Core\MVCCore\Core.AppState\Core.AppState\obj\Debug\netcoreapp2.2\Core.AppState.RazorTargetAssemblyInfo.cs
+F:\Code\2. .Net Core\1. git Learning .Net Core\MVCCore\Core.AppState\Core.AppState\obj\Debug\netcoreapp2.2\Core.AppState.Views.pdb
+F:\Code\2. .Net Core\1. git Learning .Net Core\MVCCore\Core.AppState\Core.AppState\obj\Debug\netcoreapp2.2\Core.AppState.dll
+F:\Code\2. .Net Core\1. git Learning .Net Core\MVCCore\Core.AppState\Core.AppState\obj\Debug\netcoreapp2.2\Core.AppState.pdb
+F:\Code\2. .Net Core\1. git Learning .Net Core\MVCCore\Core.AppState\Core.AppState\obj\Debug\netcoreapp2.2\Core.AppState.csproj.CopyComplete

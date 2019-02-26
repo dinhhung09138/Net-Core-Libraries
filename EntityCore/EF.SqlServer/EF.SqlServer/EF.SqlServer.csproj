@@ -2,6 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <ApplicationIcon>Papirus-Team-Papirus-Apps-Rocket-league.ico</ApplicationIcon>
+    <Win32Resource />
+    <StartupObject>EF.SqlServer.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>

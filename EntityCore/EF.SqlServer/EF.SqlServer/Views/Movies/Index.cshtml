@@ -15,6 +15,9 @@
                 <th>
                     @Html.DisplayNameFor(model => model.Title)
                 </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Customer)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -23,6 +26,9 @@
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Customer.Name)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.MovieId">Edit</a> |

@@ -24,7 +24,7 @@ namespace EF.SqlServer
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-            var connection = @"Server=(localdb)\mssqllocaldb;Database=TestDb;Trusted_Connection=True;ConnectRetryCount=0";
+            var connection = @"Server=DESKTOP-2KJND5S;Database=TestDb;Trusted_Connection=True;ConnectRetryCount=0";
             services.AddDbContext<TheaterContext>
                 (options => options.UseSqlServer(connection));
         }

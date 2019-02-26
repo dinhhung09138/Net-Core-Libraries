@@ -9,3 +9,14 @@ C:\Users\Danh.dc\source\repos\EF.SqlServer\EF.SqlServer\obj\Debug\netcoreapp2.0\
 C:\Users\Danh.dc\source\repos\EF.SqlServer\EF.SqlServer\obj\Debug\netcoreapp2.0\EF.SqlServer.AssemblyInfo.cs
 C:\Users\Danh.dc\source\repos\EF.SqlServer\EF.SqlServer\obj\Debug\netcoreapp2.0\EF.SqlServer.dll
 C:\Users\Danh.dc\source\repos\EF.SqlServer\EF.SqlServer\obj\Debug\netcoreapp2.0\EF.SqlServer.pdb
+D:\LearningNetCore\Project\EntityCore\EF.SqlServer\EF.SqlServer\bin\Debug\netcoreapp2.0\EF.SqlServer.deps.json
+D:\LearningNetCore\Project\EntityCore\EF.SqlServer\EF.SqlServer\bin\Debug\netcoreapp2.0\EF.SqlServer.runtimeconfig.json
+D:\LearningNetCore\Project\EntityCore\EF.SqlServer\EF.SqlServer\bin\Debug\netcoreapp2.0\EF.SqlServer.runtimeconfig.dev.json
+D:\LearningNetCore\Project\EntityCore\EF.SqlServer\EF.SqlServer\bin\Debug\netcoreapp2.0\EF.SqlServer.dll
+D:\LearningNetCore\Project\EntityCore\EF.SqlServer\EF.SqlServer\bin\Debug\netcoreapp2.0\EF.SqlServer.pdb
+D:\LearningNetCore\Project\EntityCore\EF.SqlServer\EF.SqlServer\obj\Debug\netcoreapp2.0\EF.SqlServer.csprojAssemblyReference.cache
+D:\LearningNetCore\Project\EntityCore\EF.SqlServer\EF.SqlServer\obj\Debug\netcoreapp2.0\EF.SqlServer.csproj.CoreCompileInputs.cache
+D:\LearningNetCore\Project\EntityCore\EF.SqlServer\EF.SqlServer\obj\Debug\netcoreapp2.0\EF.SqlServer.AssemblyInfoInputs.cache
+D:\LearningNetCore\Project\EntityCore\EF.SqlServer\EF.SqlServer\obj\Debug\netcoreapp2.0\EF.SqlServer.AssemblyInfo.cs
+D:\LearningNetCore\Project\EntityCore\EF.SqlServer\EF.SqlServer\obj\Debug\netcoreapp2.0\EF.SqlServer.dll
+D:\LearningNetCore\Project\EntityCore\EF.SqlServer\EF.SqlServer\obj\Debug\netcoreapp2.0\EF.SqlServer.pdb

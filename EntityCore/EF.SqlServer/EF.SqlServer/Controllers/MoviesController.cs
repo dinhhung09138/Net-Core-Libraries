@@ -21,7 +21,8 @@ namespace EF.SqlServer.Controllers
         // GET: Movies
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Movies.ToListAsync());
+            var theaterContext = _context.Movies.Include(m => m.Customer);
+            return View(await theaterContext.ToListAsync());
         }
 
         // GET: Movies/Details/5
@@ -33,6 +34,7 @@ namespace EF.SqlServer.Controllers
             }
 
             var movie = await _context.Movies
+                .Include(m => m.Customer)
                 .SingleOrDefaultAsync(m => m.MovieId == id);
             if (movie == null)
             {
@@ -45,6 +47,7 @@ namespace EF.SqlServer.Controllers
         // GET: Movies/Create
         public IActionResult Create()
         {
+            ViewData["CustomerRefId"] = new SelectList(_context.Customers, "CustomerId", "Name");
             return View();
         }
 
@@ -53,7 +56,7 @@ namespace EF.SqlServer.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("MovieId,Title")] Movie movie)
+        public async Task<IActionResult> Create([Bind("MovieId,Title,CustomerRefId")] Movie movie)
         {
             if (ModelState.IsValid)
             {
@@ -61,6 +64,7 @@ namespace EF.SqlServer.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["CustomerRefId"] = new SelectList(_context.Customers, "CustomerId", "Name", movie.CustomerRefId);
             return View(movie);
         }
 
@@ -77,6 +81,7 @@ namespace EF.SqlServer.Controllers
             {
                 return NotFound();
             }
+            ViewData["CustomerRefId"] = new SelectList(_context.Customers, "CustomerId", "Name", movie.CustomerRefId);
             return View(movie);
         }
 
@@ -85,7 +90,7 @@ namespace EF.SqlServer.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("MovieId,Title")] Movie movie)
+        public async Task<IActionResult> Edit(int id, [Bind("MovieId,Title,CustomerRefId")] Movie movie)
         {
             if (id != movie.MovieId)
             {
@@ -112,6 +117,7 @@ namespace EF.SqlServer.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["CustomerRefId"] = new SelectList(_context.Customers, "CustomerId", "Name", movie.CustomerRefId);
             return View(movie);
         }
 
@@ -124,6 +130,7 @@ namespace EF.SqlServer.Controllers
             }
 
             var movie = await _context.Movies
+                .Include(m => m.Customer)
                 .SingleOrDefaultAsync(m => m.MovieId == id);
             if (movie == null)
             {

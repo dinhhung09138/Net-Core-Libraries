@@ -16,6 +16,9 @@ namespace EF.SqlServer.Controllers
         public MoviesController(TheaterContext context)
         {
             _context = context;
+
+            //Create DB if not exist
+            _context.Database.EnsureCreated();
         }
 
         // GET: Movies

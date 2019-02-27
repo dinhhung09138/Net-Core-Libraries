@@ -37,23 +37,32 @@ namespace Core.AppState
                 options.IdleTimeout = TimeSpan.FromSeconds(10);
             });
 
-            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie("demoCookie", options =>
-            {
-                options.Cookie = new CookieBuilder
-                {
-                    //Domain = "",
-                    HttpOnly = true,
-                    Name = ".aspNetCoreDemo.Security.Cookie",
-                    Path = "/",
-                    SameSite = SameSiteMode.Lax,
-                    SecurePolicy = CookieSecurePolicy.SameAsRequest
-                };
-                options.ExpireTimeSpan = TimeSpan.FromMinutes(1);
-                options.LoginPath = new PathString("/Buy/Login");
-                options.ReturnUrlParameter = "RequestPath";
-                options.SlidingExpiration = true;
+            //services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie( options =>
+            //{
+            //    options.Cookie = new CookieBuilder
+            //    {
+            //        //Domain = "",
+            //        HttpOnly = false,
+            //        Name = "mykey",
+            //        Path = "/",
+            //        SameSite = SameSiteMode.Lax,
+            //        SecurePolicy = CookieSecurePolicy.SameAsRequest
+            //    };
+            //    options.ExpireTimeSpan = TimeSpan.FromSeconds(1);
+            //    options.LoginPath = new PathString("/Buy/Login");
+            //    options.ReturnUrlParameter = "RequestPath";
+            //    options.SlidingExpiration = true;
+            //});
+            services.AddAuthentication("mykey").AddCookie("mykey", options => {
+                
+                options.Cookie.Name = "mykey";
+               
             });
-
+            services.ConfigureApplicationCookie(options =>
+            {
+                options.ExpireTimeSpan = TimeSpan.FromSeconds(1);
+                
+            });
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 

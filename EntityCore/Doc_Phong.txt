@@ -1,0 +1,15 @@
+1.
+	create project with ASP.NET Core -> MVC Core
+
+2.
+	Open Package Manager -> Install EntityFrameworkCore
+
+3. 
+	create folder Entities to contains object and properties of them.
+
+4.
+	create class xxxDbContext inherited DbContext
+
+5. Start add migration
+	open Console Nuget package
+	enter: dotnet add-migration [MigrationName] project "<path to your .sln>"

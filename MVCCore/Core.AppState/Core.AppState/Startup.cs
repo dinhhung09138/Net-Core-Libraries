@@ -29,6 +29,8 @@ namespace Core.AppState
                
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
+
+                
                
             });
             
@@ -53,14 +55,24 @@ namespace Core.AppState
             //    options.ReturnUrlParameter = "RequestPath";
             //    options.SlidingExpiration = true;
             //});
+
+           
             services.AddAuthentication("mykey").AddCookie("mykey", options => {
-                
-                options.Cookie.Name = "mykey";
-               
+
+                options.LoginPath = "/Login/buy";
+                options.ExpireTimeSpan = TimeSpan.FromSeconds(1);
+
             });
+
+          
+
             services.ConfigureApplicationCookie(options =>
             {
-                options.ExpireTimeSpan = TimeSpan.FromSeconds(1);
+                options.Cookie.Name = "mykey";
+
+                options.Cookie.Expiration = TimeSpan.FromSeconds(1);
+                options.SlidingExpiration = true;
+               
                 
             });
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
@@ -79,7 +91,7 @@ namespace Core.AppState
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
-
+           
             app.UseMvc(routes =>
             {
                 routes.MapRoute(

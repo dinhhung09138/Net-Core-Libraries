@@ -42,16 +42,19 @@ namespace EF.MySQL
 
     public class LibraryDbContext : DbContext
     {
+        // Tables
         public DbSet<BookShelf> BookShelf { get; set; }
         public DbSet<Book> Book { get; set; }
         public DbSet<Genre> Genre { get; set; }
         public DbSet<BookGenre> BookGenre { get; set; }
 
+        // Database configuration
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseMySQL(ConfigurationManager.ConnectionStrings["LibraryDbContext"].ConnectionString);
         }
 
+        // Create data types, relationships
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2f37347-dbff-417c-a55a-79811fcd4503": {
+      "ProjectGuid": "a2f37347-dbff-417c-a55a-79811fcd4503",
+      "DisplayName": "SerilogSample",
+      "ColorIndex": 0
+    },
+    "f0bfea92-c1a7-4a82-bbe3-f440b878fc23": {
+      "ProjectGuid": "f0bfea92-c1a7-4a82-bbe3-f440b878fc23",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "24dce6ac-c42d-4b2d-ba06-94df6a9d824d": {
+      "ProjectGuid": "24dce6ac-c42d-4b2d-ba06-94df6a9d824d",
+      "DisplayName": "SerilogSample.Net6",
+      "ColorIndex": 0
+    },
+    "4d9536da-c17a-46cf-86c3-7540a5d4d4a9": {
+      "ProjectGuid": "4d9536da-c17a-46cf-86c3-7540a5d4d4a9",
+      "DisplayName": "SerilogExample.Net5",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

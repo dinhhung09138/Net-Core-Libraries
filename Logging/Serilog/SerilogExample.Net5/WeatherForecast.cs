@@ -1,4 +1,6 @@
-namespace SerilogSample
+using System;
+
+namespace SerilogExample.Net5
 {
     public class WeatherForecast
     {
@@ -8,6 +10,6 @@ namespace SerilogSample
 
         public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 
-        public string? Summary { get; set; }
+        public string Summary { get; set; }
     }
 }
